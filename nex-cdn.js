@@ -1,11 +1,8 @@
 (function(){
-  // ---- monta/usa o host no light DOM ----
-  var host = document.getElementById("insert-table");
-  if(!host){
-    host = document.createElement("div");
-    host.id = "insert-table";
-    document.body.appendChild(host);
-  }
+  // ---- Procura o id 'nexgenius-insert-table' e monta o script ----
+  var host = document.getElementById("nexgenius-insert-table");
+  if(!host) return;
+  var shadow = host.shadowRoot || host.attachShadow({ mode: "open" });
 
   // ---- Shadow DOM (isolamento) ----
   var shadow = host.shadowRoot || host.attachShadow({ mode: "open" });
@@ -348,4 +345,5 @@
     });
   })();
 })();
+
 
