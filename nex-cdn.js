@@ -41,7 +41,7 @@
   + ".section{display:none}"
   + ".section.active{display:block}"
   + ".form-group{margin-bottom:20px}"
-  + "#cam-caimento,#cal-caimento,#shoe-meia{width:50%;padding:12px 10px;border:2px solid #e9ecef;border-radius:6px}"
+  + "#cam-caimento,#cal-caimento,#shoe-meia{width:100%;padding:12px 10px;border:2px solid #e9ecef;border-radius:6px}"
   + "label{display:block;font-weight:500;color:#495057;margin-bottom:6px}"
   + "input[type=number]{width:100%;padding:12px 16px;border:2px solid #e9ecef;border-radius:6px;font-size:1rem;transition:border-color .3s}"
   + "input[type=number]:focus{outline:0;border-color:#007bff;box-shadow:0 0 0 3px rgba(0,123,255,.1)}"
@@ -348,3 +348,4 @@
     });
   })();
 })();
+
